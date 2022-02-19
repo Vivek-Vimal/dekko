@@ -1,0 +1,16 @@
+.iconL,.iconR{
+    font-size: 1.6rem ;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .iconL{
+        margin-right: 2rem;
+        width: 2rem;
+    cursor: pointer;
+    }
+    .iconR{
+        margin-left: 2rem;
+        width: 2rem;
+    cursor: pointer;
+    }
+  }

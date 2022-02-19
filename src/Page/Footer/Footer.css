@@ -1,0 +1,46 @@
+.last{
+    background: #1E2947;
+    min-height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+}
+.input{
+    background-color: #FFFFFF;  
+ backdrop-filter: blur(20px);
+ border: none;
+ color:rgba(40, 26, 200, 1) ;
+ padding: 0 0 0 1rem;
+ border: 1.5px solid #E7E8F2;
+ border-radius: 6px;
+}
+.input:focus {
+    border: none;
+}
+.input::placeholder{
+    
+    color: grey;
+}
+
+@media (max-width: 1160px){
+   
+}
+
+@media (max-width: 768px){
+    .last{
+        flex-direction: column;
+        padding: 2rem 0 2rem 0;
+    }
+    .sh{
+        padding: 1rem 0 1rem 0;
+    }
+}
